@@ -5,7 +5,7 @@ metadata:
   title: Rails template
   description: scaffolder Rails app
 spec:
-  owner: ragisreekanth@example.com
+  owner: group:default/frontend-admin
   type: service
 
   parameters:
