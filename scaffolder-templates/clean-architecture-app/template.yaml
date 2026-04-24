@@ -9,7 +9,7 @@ metadata:
     - recommended
     - java
 spec:
-  owner: group:backend-admin
+  owner: group:default/backend-admin
   type: service
 
   # These parameters are used to generate the input form in the frontend, and are
