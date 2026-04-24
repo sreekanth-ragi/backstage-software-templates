@@ -5,7 +5,7 @@ metadata:
   title: Rails template
   description: scaffolder Rails app
 spec:
-  owner: backstage/techdocs-core
+  owner: ragisreekanth@example.com
   type: service
 
   parameters:
