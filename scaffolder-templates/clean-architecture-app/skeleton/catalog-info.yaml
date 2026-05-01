@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nginx-test
+  name: ${{ values.name | dump }}
   annotations:
-    argocd/app-name: nginx-test
+    github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: experimental
-  owner: group:default/backend-admin
+  owner: ${{values.owner | dump}}
